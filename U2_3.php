@@ -9,7 +9,7 @@
 <?php
 echo "<h1>PHP Array Functions Demonstration</h1>";
 
-//1
+//1.
 $student = array(
     "Name" => "Parth","Age" => 18,"City" => "Chhagunpur");
 
@@ -23,7 +23,7 @@ echo "<br><b>Uppercase keys:</b><br>";
 print_r(array_change_key_case($student, CASE_UPPER));
 
 
-//2
+//2.
 echo "<h3>array_chunk()</h3>";
 
 $months = array( "Jan", "Feb", "Mar", "Apr","May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
@@ -34,7 +34,7 @@ echo "Chunks of 3 months:<br>";
 print_r($chunks);
 
 
-//3
+//3.
 echo "<h3>array_count_values()</h3>";
 
 $colors = array("red", "blue", "red", "green", "blue", "blue");
@@ -42,7 +42,7 @@ $colors = array("red", "blue", "red", "green", "blue", "blue");
 print_r(array_count_values($colors));
 
 
-//4
+//4.
 echo "<h3>array_combine()</h3>";
 
 $keys = array("A", "B", "C");
@@ -51,7 +51,7 @@ $values = array("Apple", "Ball", "Cat");
 $combined = array_combine($keys, $values);
 print_r($combined);
 
-//5
+//5.
 echo "<h3>array_pop()</h3>";
 
 $stack = array("Apple", "Banana", "Mango");
